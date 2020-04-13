@@ -1,5 +1,5 @@
 # myapp
-This is a node express example application.
+This is a node express example application with basic auth.
 
 # compile
 ```
