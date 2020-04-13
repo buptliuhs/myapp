@@ -3,11 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "compile": "tsc -p ."
   },
   "dependencies": {
     "express": "~4.17.1",
     "passport": "^0.4.1",
     "passport-http": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/passport": "^1.0.3",
+    "@types/passport-http": "^0.3.8",
+    "typescript": "^3.8.3"
   }
 }

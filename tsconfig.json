@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "watch": false,
+    "sourceMap": true,
+    "strict": true
+    /* Enable all strict type-checking options. */
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
